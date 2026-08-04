@@ -4,8 +4,7 @@ from pathlib import Path
 from torch.utils.data import Dataset
 import torchvision.transforms as T
 
-CLASSES = ["Normal", "Benign", "Malignant"]
-CLASS_TO_IDX = {c: i for i, c in enumerate(CLASSES)}
+from constants import CLASSES, CLASS_TO_IDX
 
 IMAGENET_MEAN = [0.485, 0.456, 0.406]
 IMAGENET_STD = [0.229, 0.224, 0.225]
