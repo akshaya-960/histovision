@@ -238,3 +238,6 @@ models/ood_stats.npz
 # Keep folder structure visible in git even though contents are ignored
 !data/.gitkeep
 !models/.gitkeep
+
+models.zip
+*.zip
