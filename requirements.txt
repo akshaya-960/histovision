@@ -1,0 +1,12 @@
+# CPU-only PyTorch build used in development. If installing fresh:
+# pip install torch==2.13.0 torchvision==0.28.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0
+torchvision==0.28.0
+streamlit>=1.60.0
+opencv-python-headless>=4.10.0
+numpy>=1.26.0
+pandas>=2.0.0
+pillow>=10.0.0
+reportlab>=4.0.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
