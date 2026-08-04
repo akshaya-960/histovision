@@ -228,8 +228,7 @@ models/*.pth
 !data/.gitkeep
 !models/.gitkeep
 # Project-specific: dataset and large model artifacts
-data/processed/
-data/raw/
+
 models/*.pt
 models/*.pth
 models/ood_stats.npz
